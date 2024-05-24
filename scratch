@@ -1,0 +1,203 @@
+{
+    "_links": {
+        "self": {
+            "href": "/api/v2/flags/default?filter=filterEnv%3Atest&limit=20&summary=true",
+            "type": "application/json"
+        }
+    },
+    "items": [
+        {
+            "_links": {
+                "parent": {
+                    "href": "/api/v2/flags/default",
+                    "type": "application/json"
+                },
+                "self": {
+                    "href": "/api/v2/flags/default/hod-poc",
+                    "type": "application/json"
+                }
+            },
+            "_maintainer": {
+                "_id": "63491b04d2dfc4122f14777f",
+                "_links": {
+                    "self": {
+                        "href": "/api/v2/members/63491b04d2dfc4122f14777f",
+                        "type": "application/json"
+                    }
+                },
+                "email": "trimao2008@gmail.com",
+                "firstName": "Tri",
+                "lastName": "Mao",
+                "role": "owner"
+            },
+            "_version": 1,
+            "archived": false,
+            "clientSideAvailability": {
+                "usingEnvironmentId": false,
+                "usingMobileKey": false
+            },
+            "creationDate": 1665735507636,
+            "customProperties": {},
+            "deprecated": false,
+            "description": "",
+            "environments": {
+                "test": {
+                    "_environmentName": "Test",
+                    "_site": {
+                        "href": "/default/test/features/hod-poc",
+                        "type": "text/html"
+                    },
+                    "_summary": {
+                        "prerequisites": 0,
+                        "variations": {
+                            "0": {
+                                "contextTargets": 0,
+                                "isFallthrough": true,
+                                "nullRules": 0,
+                                "rules": 0,
+                                "targets": 0
+                            },
+                            "1": {
+                                "contextTargets": 0,
+                                "isOff": true,
+                                "nullRules": 0,
+                                "rules": 0,
+                                "targets": 0
+                            }
+                        }
+                    },
+                    "archived": false,
+                    "lastModified": 1666083362839,
+                    "on": false,
+                    "salt": "f233045e588e4b17a662bbe66283f1b1",
+                    "sel": "211c95e7ca3645b6be6f7ada42d75672",
+                    "trackEvents": false,
+                    "trackEventsFallthrough": false,
+                    "version": 7
+                }
+            },
+            "experiments": {
+                "baselineIdx": 0,
+                "items": []
+            },
+            "goalIds": [],
+            "includeInSnippet": false,
+            "key": "hod-poc",
+            "kind": "boolean",
+            "maintainerId": "63491b04d2dfc4122f14777f",
+            "name": "hod-poc",
+            "tags": [],
+            "temporary": true,
+            "variationJsonSchema": null,
+            "variations": [
+                {
+                    "_id": "46e55685-949a-483d-a61f-606e65317a48",
+                    "value": true
+                },
+                {
+                    "_id": "210a4150-e0ba-4e3e-a194-3f8bd28db6fc",
+                    "value": false
+                }
+            ]
+        },
+        {
+            "_links": {
+                "parent": {
+                    "href": "/api/v2/flags/default",
+                    "type": "application/json"
+                },
+                "self": {
+                    "href": "/api/v2/flags/default/hod-poc-1",
+                    "type": "application/json"
+                }
+            },
+            "_maintainer": {
+                "_id": "63491b04d2dfc4122f14777f",
+                "_links": {
+                    "self": {
+                        "href": "/api/v2/members/63491b04d2dfc4122f14777f",
+                        "type": "application/json"
+                    }
+                },
+                "email": "trimao2008@gmail.com",
+                "firstName": "Tri",
+                "lastName": "Mao",
+                "role": "owner"
+            },
+            "_version": 1,
+            "archived": false,
+            "clientSideAvailability": {
+                "usingEnvironmentId": false,
+                "usingMobileKey": true
+            },
+            "creationDate": 1666079669841,
+            "customProperties": {},
+            "defaults": {
+                "offVariation": 1,
+                "onVariation": 0
+            },
+            "deprecated": false,
+            "description": "",
+            "environments": {
+                "test": {
+                    "_environmentName": "Test",
+                    "_site": {
+                        "href": "/default/test/features/hod-poc-1",
+                        "type": "text/html"
+                    },
+                    "_summary": {
+                        "prerequisites": 0,
+                        "variations": {
+                            "0": {
+                                "contextTargets": 0,
+                                "isFallthrough": true,
+                                "nullRules": 0,
+                                "rules": 0,
+                                "targets": 0
+                            },
+                            "1": {
+                                "contextTargets": 0,
+                                "isOff": true,
+                                "nullRules": 0,
+                                "rules": 0,
+                                "targets": 0
+                            }
+                        }
+                    },
+                    "archived": false,
+                    "lastModified": 1716428600931,
+                    "on": true,
+                    "salt": "529a235eee604c409a5284dd1bd70bbb",
+                    "sel": "0bb510a73c85430d873394c533dea7a4",
+                    "trackEvents": false,
+                    "trackEventsFallthrough": false,
+                    "version": 6
+                }
+            },
+            "experiments": {
+                "baselineIdx": 0,
+                "items": []
+            },
+            "goalIds": [],
+            "includeInSnippet": false,
+            "key": "hod-poc-1",
+            "kind": "boolean",
+            "maintainerId": "63491b04d2dfc4122f14777f",
+            "name": "hod-poc-1",
+            "tags": [],
+            "temporary": true,
+            "variationJsonSchema": null,
+            "variations": [
+                {
+                    "_id": "d3ba6004-528c-4b8e-be5a-7bb06996aaa4",
+                    "value": true
+                },
+                {
+                    "_id": "0c50e059-b8ec-434c-894f-ff02caeb91ae",
+                    "value": false
+                }
+            ]
+        }
+    ],
+    "totalCount": 2
+}
